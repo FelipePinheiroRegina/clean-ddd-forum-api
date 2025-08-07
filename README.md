@@ -18,13 +18,13 @@ Projeto de estudo e demonstração de uma API de fórum utilizando Domain Driven
 
 ---
 
-## 1. Visão Geral
+## Visão Geral
 
 Projeto de estudo e demonstração de **Domain Driven Design (DDD)**, com aplicação de Clean Architecture, patterns de domínio, eventos, Pub/Sub, testes automatizados e organização modular.
 
 ---
 
-## 2. Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **TypeScript** — Tipagem estática e robustez.
 - **Vitest** — Testes unitários e integração.
@@ -35,7 +35,7 @@ Projeto de estudo e demonstração de **Domain Driven Design (DDD)**, com aplica
 
 ---
 
-## 3. Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src/
@@ -60,7 +60,7 @@ test/
 
 ---
 
-## 4. Padrões e Arquitetura
+## Padrões e Arquitetura
 
 - **Domain Driven Design (DDD)**
 - **Clean Architecture**
@@ -75,7 +75,7 @@ Explicações detalhadas de cada pattern estão na seção [Domínio e Conceitos
 
 ---
 
-## 5. Domínio e Conceitos DDD
+## Domínio e Conceitos DDD
 
 ### Conceito de Pub/Sub (Publisher/Subscriber)
 
@@ -180,7 +180,7 @@ Eventos de domínio são importantes porque permitem que diferentes partes do si
 
 ---
 
-## 6. Casos de Uso
+## Casos de Uso
 
 Os casos de uso estão em `src/domain/forum/application/use-cases/` e `src/domain/notification/application/use-cases/`.
 
@@ -196,7 +196,7 @@ Cada caso de uso segue o padrão de receber um input, executar regras de negóci
 
 ---
 
-## 7. Testes
+## Testes
 
 - Todos os testes estão na pasta `test/` e em arquivos `.test.ts` próximos aos casos de uso.
 - Utiliza **Vitest**.
@@ -216,7 +216,7 @@ npx vitest
 
 ---
 
-## 8. Fluxograma do App
+## Fluxograma do App
 
 ```mermaid
 flowchart TD
@@ -243,7 +243,7 @@ flowchart TD
 
 ---
 
-## 9. Clean Architecture
+## Clean Architecture
 
 O projeto segue os princípios da Clean Architecture, separando regras de negócio do domínio, casos de uso, interfaces e infraestrutura.
 
@@ -251,7 +251,7 @@ O projeto segue os princípios da Clean Architecture, separando regras de negóc
 
 ---
 
-## 10. Como Clonar e Rodar o Projeto
+## Como Clonar e Rodar o Projeto
 
 ```bash
 git clone https://github.com/seu-usuario/clean-ddd.git
@@ -262,7 +262,7 @@ npm test
 
 ---
 
-## 11. Referências e Links Úteis
+## Referências e Links Úteis
 
 - [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html)
 - [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
